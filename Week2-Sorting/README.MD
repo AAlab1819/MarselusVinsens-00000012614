@@ -58,12 +58,24 @@ The Output will be "Yes" and "No". it is either he can pass the level or not at 
 # 768A - Oath of The Night's Watch 
 Objective : 
 
+To count howmany stewards will Jon Snow Supports
+
 Information : 
+
+Jon Snow will only support stewards only and if only there is 1 steward have less strength than him and 
+another one with strength greater than him. In a thinking he will only help who with strength mediocore ( must have one lowest and one highest).
+
 
 Solution :
 
+In this coding we will use *Cocktail Sort*. Where *Cocktail Sort* is a variation of *bubble sort*, where this one differs in the movement in the sorting arrays. *Cocktail Sort* move bi-directional alternatively where as *Bubble Sort* always move from left to right and move the largest element to its correct possition in its first iteration, and second biggest and so on.
+
+After Sorting is done we use *for* function to check if there is a stewards whos strength in between the strongest or the weakest in the group. Where as Strongest is the last one in the sorting arrays and the weakes is in the first in line in the arrays.
+
 
 Output : 
+
+The Output will be the number of stewards whos strength is in between the weakest and strongest which Jon SNow will help.
 
 
 [768A Submission](https://codeforces.com/contest/768/submission/42704759)
