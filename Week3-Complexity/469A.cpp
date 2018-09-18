@@ -7,7 +7,7 @@ int main ()
 	
 	cin >> lvl;
 	
-	int lvlarr[lvl];
+	int lvlarr[lvl]={0};
 	
 	//set lvl passed by X
 	cin >> lvlx;
