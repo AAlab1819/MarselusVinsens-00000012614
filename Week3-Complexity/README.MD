@@ -39,7 +39,12 @@ Time Complexity:
     
 # 469A - I Wanna Be the Guy
 
-We need to help x and y to check if the game can be passed by them working together.
+We need to help x and y to check if the game (l Level) can be passed by them working together. First off we will need to set up an array of k size where k is the level they want to pass, and we need to fill the array with 0 to mark off which level they haven't pass. After that we will insert numbers of level which x and y already pass and change the value inside the array to 1 to mark it to pass.
+
+After done inserting we will do a loop to count how many level are passed by both of them.
+
+From doing that we can conclude either x and y can pass l levels from working together or not.
+
 
 Time Complexity:
 
