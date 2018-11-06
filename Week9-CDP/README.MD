@@ -10,4 +10,4 @@ After all of the loop done, we will sum up all of the maximum value of each pers
 
 Time Complexity: 
 	
-	 O(n<sup>2</sup>)
+	 O(n^2)
